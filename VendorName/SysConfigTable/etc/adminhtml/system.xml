@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * VendorName_SysConfigTable
+ *
+ * @category    VendorName
+ * @package     VendorName_SysConfigTable
+ * @copyright   Copyright (c) 2017 Optaros
+ * @author      Stefan Iurasog <stefan.iurasog@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="vendorname_general" translate="label" sortOrder="0">
+			<label>VendorName</label>
+		</tab>
+		<section id="vendorname_general_section" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+			<label>Your Multiple fields</label>
+			<tab>vendorname_general</tab>
+			<resource>VendorName_Test::vendorname_test_config</resource>
+			<group id="general" translate="label"  sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+				<label>General</label>
+				<field id="active" translate="label" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+					<label>Your Fields</label>
+					<frontend_model>VendorName\SysConfigTable\Block\System\Config\Form\Field\Active</frontend_model>
+					<backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
