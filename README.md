@@ -1,5 +1,5 @@
-#Mangento 2 System Configuration Table module 
-###Multiple fields in Store - Configuration
+# Mangento 2 System Configuration Table module 
+### Multiple fields in Store - Configuration
 
 > It is function for all version Magento 2.X.X
 
