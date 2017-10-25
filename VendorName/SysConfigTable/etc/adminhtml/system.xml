@@ -22,7 +22,7 @@
 				<label>General</label>
 				<field id="active" translate="label" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
 					<label>Your Fields</label>
-					<frontend_model>VendorName\SysConfigTable\Block\System\Config\Form\Field\Active</frontend_model>
+					<frontend_model>VendorName\SysConfigTable\Block\System\Config\Form\Field\Fields</frontend_model>
 					<backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
 				</field>
 			</group>

@@ -16,7 +16,7 @@ use Magento\Config\Block\System\Config\Form\Field\FieldArray\AbstractFieldArray;
  *
  * @package VendorName\SysConfigTable\Block\System\Config\Form\Field
  */
-class Active extends AbstractFieldArray {
+class Fields extends AbstractFieldArray {
 
 	/**
 	 * @var bool
